@@ -71,7 +71,7 @@ console.log('Bot connected to whatsapp ✅')
 
 let up = `🚀 *_QUEEN-ISHU-MD Connected Successfully!_* ✅`;
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://files.catbox.moe/172u47.jpg` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://pomf2.lain.la/f/147pvvp2.jpg` }, caption: up })
 
 }
 })
