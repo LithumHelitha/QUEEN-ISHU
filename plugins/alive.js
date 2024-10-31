@@ -16,13 +16,13 @@ let des = `*👋 Hello ${pushname}*
 *╔╭────────────╮╕*
 *╭│I'm Alive Now👾  │─◎◎▷*
 *╘╰────────────╯╜*
-*│A QUEEN-KYLIE-MD │Whatsapp Bot Based │Many │Services With A │RealTime* *Automated │Consversational* *││Experience, Enjoy💫.*
+*│A QUEEN-ISHU-MD │Whatsapp Bot Based │Many │Services With A │RealTime* *Automated │Consversational* *││Experience, Enjoy💫.*
 *| So,I Think This Bots Are Useful To You.📍*
 *│*
 *│Type .menu To Get Bot User*
 *│Menu💫*
 *╰───────────────◎◎▷*
-*©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*`
+*ISHU MD BY LAKSIDU*`
 return await conn.sendMessage(from,{image: {url: `https://files.catbox.moe/48p60j.jpg`},caption: des},{quoted: mek})
 }catch(e){
 console.log(e)
