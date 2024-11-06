@@ -18,7 +18,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const data = search.videos[0];
         const url = data.url;
 
-        let desc = `*📽️ QUEEN-KYLIE-MD VIDEO DOWNLOADER . .⚙️*
+        let desc = `*📽️ QUEEN-ISHU-MD VIDEO DOWNLOADER . .⚙️*
 
 📽️⚙️ TITLE - ${data.title}
 
@@ -33,9 +33,10 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 *Reply This Message With Option*
 
 *1 Video With Normal Format*
+
 *2 Video With Document Format*
 
-*©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*`;
+*©Qᴜᴇᴇɴ ISHU-MD BY LAKSIDU NIMSARAッ*`;
 
         const vv = await conn.sendMessage(from, { image: { url: data.thumbnail }, caption: desc }, { quoted: mek });
 
