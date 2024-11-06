@@ -38,7 +38,7 @@ _*🌟 Reply with the Number you want to select*_
 
 *©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*`;
 
-        const vv = await conn.sendMessage(from, { image: { url: "https://files.catbox.moe/4k5o8f.jpg"}, caption: desc }, { quoted: mek });
+        const vv = await conn.sendMessage(from, { image: { url: "https://i.imgur.com/9nNY1r6.jpeg"}, caption: desc }, { quoted: mek });
 
         conn.ev.on('messages.upsert', async (msgUpdate) => {
             const msg = msgUpdate.messages[0];
