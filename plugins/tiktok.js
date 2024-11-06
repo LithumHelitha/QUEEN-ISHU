@@ -21,17 +21,20 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
     try {
         if (!q || !q.startsWith("https://")) return reply("Please provide a valid Tiktok video URL!");
         const data = await fetchJson(`${baseUrl}/api/tiktokdl?url=${q}`);
-        let desc = ` *QUEEN-KYLIE-MD TikTok DOWNLOADER...⚙️*
+        let desc = ` *QUEEN -ISHU-MD TikTok DOWNLOADER...⚙️*
 
 *Reply This Message With Option*
 
 *1 Download TikTok Video With Watermark*
+
 *2 Download TikTok Video Without Watermark*
+
+
 *3 Download Audio*
 
-*©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*`;
+*©CREAT BY LAKSIDU NIMSARA*`;
 
-        const vv = await conn.sendMessage(from, { image: { url: "https://files.catbox.moe/48p60j.jpg"}, caption: desc }, { quoted: mek });
+        const vv = await conn.sendMessage(from, { image: { url: "https://i.imgur.com/9nNY1r6.jpeg"}, caption: desc }, { quoted: mek });
 
         conn.ev.on('messages.upsert', async (msgUpdate) => {
             const msg = msgUpdate.messages[0];
