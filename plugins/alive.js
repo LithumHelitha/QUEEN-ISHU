@@ -23,7 +23,7 @@ let des = `*👋 Hello ${pushname}*
 *│Menu💫*
 *╰───────────────◎◎▷*
 *ISHU MD BY LAKSIDU*`
-return await conn.sendMessage(from,{image: {url: `https://pomf2.lain.la/f/147pvvp2.jpg`},caption: des},{quoted: mek})
+return await conn.sendMessage(from,{image: {url: `https://i.imgur.com/9nNY1r6.jpeg`},caption: des},{quoted: mek})
 }catch(e){
 console.log(e)
 reply(`${e}`)
