@@ -71,7 +71,7 @@ console.log('Bot connected to whatsapp ✅')
 
 let up = `🚀 *_QUEEN-ISHU-MD Connected Successfully!_* ✅`;
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.imgur.com/9nNY1r6.jpeg` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.imgur.com/wzC6N6h.jpeg` }, caption: up })
 
 }
 })
@@ -155,12 +155,12 @@ conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
          
 if(senderNumber.includes("94771470396")){
 if(isReact) return
-m.react("👨‍💻")
+m.react("💛")
 }       
  
 if(senderNumber.includes("94704227534")){
 if(isReact) return
-m.react("👸")
+m.react("💛")
 }
 //=====Auto-Read-Cmd==========
 if (isCmd && config.AUTO_READ_CMD === "true") {
