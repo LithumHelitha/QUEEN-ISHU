@@ -23,15 +23,19 @@ const url = data.url
     
 const ytdl = await fetchJson(`${apilink}/download/ytmp3?url=${data.url}`)
     
-let message = `‎‎           🎶 YT SONG DOWNLOADER 🎶
+let message = `‎‎           💜QUEEN-ISHU SONG DOWNLOADING💜
 
+ *💚 ‎Title: ${data.title}*
 
- 🎵 ‎Title: ${data.title}
- ⏱ Duration: ${data.timestamp}
- 🌏 Uploaded: ${data.ago}
- 🧿 Views: ${data.views}
- 🤵 Author: ${data.author.name}
-  📎 Url: ${data.url}
+ *💚 Duration: ${data.timestamp}*
+
+ *🌏 Uploaded: ${data.ago}*
+
+ *🧿 Views: ${data.views}*
+
+ *🤵 Author: ${data.author.name}*
+
+  *📎 Url: ${data.url}*
 `
   
 await conn.sendMessage(from, { image: { url : data.thumbnail }, caption: message }, { quoted : mek })
@@ -46,4 +50,4 @@ reply(e)
 }
 })
 
-// FOLLOW US : https://whatsapp.com/channel/0029VaaPfFK7Noa8nI8zGg27
+// FOLLOW US : https://whatsapp.com/channel/0029Vao7dOmDOQISArwnHT0e
