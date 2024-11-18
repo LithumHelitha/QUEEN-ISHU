@@ -22,7 +22,7 @@
   ## 1. FORK REPOSITOR
 
 
- <a href="https://github.com/laksidunimsara1/QUEEN-ISHU-MD/fork"><img src="https://img.shields.io/badge/Fork%20Repo-blue" alt="FORK VAJIRA MD REPO" width="150"></a>
+ <a href="https://github.com/LAKSIDUOFFICIAL/QUEEN-ISHU/fork"><img src="https://img.shields.io/badge/Fork%20Repo-blue" alt="FORK VAJIRA MD REPO" width="150"></a>
   </br>
    <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
    <br>
@@ -49,7 +49,7 @@
     OR
     -->
 ## Deploy.
- [![nima](https://img.shields.io/badge/QUEEN-ISHU_deploy_on_heroku-430098?style=for-the-badge&logo=heroku&logoColor=white&buttcode=1n2i3m4a)](https://dashboard.heroku.com/new?template=https://github.com/laksidunimsara1/QUEEN-ISHU-MD)
+ [![nima](https://img.shields.io/badge/QUEEN-ISHU_deploy_on_heroku-430098?style=for-the-badge&logo=heroku&logoColor=white&buttcode=1n2i3m4a)](https://dashboard.heroku.com/new?template=https://github.com/LAKSIDUOFFICIAL/QUEEN-ISHU)
 
 </details>
 
