@@ -22,8 +22,8 @@ let des = `*👋 Hello ${pushname}*
 *│Type .menu To Get Bot User*
 *│Menu💫*
 *╰───────────────◎◎▷*
-*ISHU MD BY LAKSIDU*`
-return await conn.sendMessage(from,{image: {url: `https://i.imgur.com/9nNY1r6.jpeg`},caption: des},{quoted: mek})
+*ISHU MD CREAT BY LAKSIDU*`
+return await conn.sendMessage(from,{image: {url: `https://i.imgur.com/wzC6N6h.jpeg`},caption: des},{quoted: mek})
 }catch(e){
 console.log(e)
 reply(`${e}`)
