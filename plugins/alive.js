@@ -30,12 +30,12 @@ let des = `*👋 Hello ${pushname}*
 *╒✦•=====•••••••••======•✦*
 *│ CREATER : LAKSIDU NIMSARA*
 *│ VERSION : ᴠ.1.0.0*
-*│ UPTIME  :  1 hour, 45 minutes, 48 seconds
+*│ UPTIME  : 24h*
 *│ ʀᴀᴍ ᴜꜱᴀɢᴇ  : 4TB*
 *│ HOST NAME : LAKSIDU CLOUD*
 *╘✦•=========•••••••••=======•✦*
 
-* ISHU CREAT BY LAKSIDU TECH*`
+*ISHU CREAT BY LAKSIDU TECH*`
 return await conn.sendMessage(from,{image: {url: `https://i.imgur.com/wzC6N6h.jpeg`},caption: des},{quoted: mek})
 }catch(e){
 console.log(e)
