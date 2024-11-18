@@ -57,7 +57,7 @@ _*🌟 Reply with the Number you want to select*_
 
 ⭓ *Total Commands List OWNER: 1*
 
-*©QUEEN ISHU MD CREATE BY LAKSIDU NIMSARAッ*`;
+*©QUEEN ISHU MD CREATE BY LAKSIDU NIMSARAッ*`;)
                         break;
                     case '2':               
                         reply(`*◈╾──────CONVERT COMMAND LIST──────╼◈*
@@ -68,7 +68,7 @@ _*🌟 Reply with the Number you want to select*_
 
 ⭓ *Total Commands List CONVERT: 1*
 
-*©QUEEN ISHU MD CREATE BY LAKSIDU NIMSARAッ*`;
+*©QUEEN ISHU MD CREATE BY LAKSIDU NIMSARAッ*`;)
                         break;
                     case '3':               
                         reply(`*◈╾──────AI COMMAND LIST──────╼◈*
@@ -79,7 +79,7 @@ _*🌟 Reply with the Number you want to select*_
 
 ⭓ *Total Commands List AI: 1*
 
-*©QUEEN ISHU MD CREATE BY LAKSIDU NIMSARAッ*`;
+*©QUEEN ISHU MD CREATE BY LAKSIDU NIMSARAッ*`;)
                         break;
                     case '4':               
                         reply(`*◈╾──────SEARCH COMMAND LIST──────╼◈*
@@ -93,7 +93,7 @@ _*🌟 Reply with the Number you want to select*_
 
 ⭓ *Total Commands List SEARCH: 2*
 
-*©QUEEN ISHU MD CREATE BY LAKSIDU NIMSARAッ*`;
+*©QUEEN ISHU MD CREATE BY LAKSIDU NIMSARAッ*`;)
                         break;
                     case '5':               
                         reply(`*◈╾──────DOWNLOAD COMMAND LIST──────╼◈*
@@ -143,7 +143,7 @@ _*🌟 Reply with the Number you want to select*_
 
 ⭓ *Total Commands List DOWNLOAD: 14*
 
-*©QUEEN ISHU MD CREATE BY LAKSIDU NIMSARAッ*`;
+*©QUEEN ISHU MD CREATE BY LAKSIDU NIMSARAッ*`;)
                         break;
                     case '6':               
                         reply(`*◈╾──────MAIN COMMAND LIST──────╼◈*
@@ -175,7 +175,7 @@ _*🌟 Reply with the Number you want to select*_
 
 ⭓ *Total Commands List MAIN: 8*
 
-*©QUEEN ISHU MD CREATE BY LAKSIDU NIMSARAッ*`;
+*©QUEEN ISHU MD CREATE BY LAKSIDU NIMSARAッ*`;)
                         break;
                     case '7':               
                         reply(`*◈╾──────GROUP COMMAND LIST──────╼◈*
@@ -216,7 +216,7 @@ _*🌟 Reply with the Number you want to select*_
 
 ⭓ *Total Commands List GROUP: 11*
 
-*©QUEEN ISHU MD CREATE BY LAKSIDU NIMSARAッ*`;
+*©QUEEN ISHU MD CREATE BY LAKSIDU NIMSARAッ*`;)
                        break;
                     case '8':               
                         reply(`*◈╾──────FUN COMMAND LIST──────╼◈*
@@ -236,7 +236,7 @@ _*🌟 Reply with the Number you want to select*_
 
 ⭓ *Total Commands List FUN: 4*
 
-*©QUEEN ISHU MD CREATE BY LAKSIDU NIMSARAッ*`;
+*©QUEEN ISHU MD CREATE BY LAKSIDU NIMSARAッ*`;)
 
                         break;
                     case '10':               
@@ -254,7 +254,7 @@ _*🌟 Reply with the Number you want to select*_
 
 ⭓ *Total Commands List OTHER: 3*
 
-*©QUEEN ISHU MD CREATE BY LAKSIDU NIMSARAッ*`;
+*©QUEEN ISHU MD CREATE BY LAKSIDU NIMSARAッ*`;)
 
 
                         break;
