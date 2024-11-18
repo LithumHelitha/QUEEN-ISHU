@@ -15,12 +15,11 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         let desc = `*👋 Hello ${pushname}*
 
 *╭─「 ᴄᴏᴍᴍᴀɴᴅ ᴘᴀɴᴇʟ」*
-*│🧡 ʀᴜɴᴛɪᴍᴇ : ${runtime(process.uptime())}*
-*│🧡 ʀᴀᴍ ᴜꜱᴀɢᴇ : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
-*│🧡 ᴘʟᴀᴛꜰᴏʀᴍ : ${os.hostname()}*
-*│🧡 ᴠᴇʀꜱɪᴏɴ : 1.0.0*
+*│❤️ ʀᴜɴᴛɪᴍᴇ : ${runtime(process.uptime())}*
+*│❤️ ʀᴀᴍ ᴜꜱᴀɢᴇ : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
+*│❤️ ᴘʟᴀᴛꜰᴏʀᴍ : ${os.hostname()}*
+*│❤️ ᴠᴇʀꜱɪᴏɴ : 1.0.0*
 *╰──────────●●►*
-
 *╭╼╼╼╼╼╼╼╼╼╼*
 *├ 1 • OWNER*
 *├ 2 • CONVERT*
@@ -33,13 +32,12 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 *├ 9 • TOOLS*
 *├ 10 • OTHER*
 *╰╼╼╼╼╼╼╼╼╼╼*
-=======================
-│🧡 ᴜᴘᴛɪᴍᴇ : 24H
-│🧡 RAM USAGE :  4TB
-│🧡 HOST NAME : LAKSIDU CLOUD
-│🧡 OWERNER : LAKSIDU NIMSARA
-=======================
-
+*=======================*
+*│❤️ ᴜᴘᴛɪᴍᴇ : 24H*
+*│❤️ RAM USAGE :  4TB*
+*│❤️ HOST NAME : LAKSIDU CLOUD*
+*│❤️ OWERNER : LAKSIDU NIMSARA*
+*=======================*
 _*🌟 Reply with the Number you want to select*_
 
 *ISHU MD CREATE BY LAKSIDU NIMSARAッ*`;
