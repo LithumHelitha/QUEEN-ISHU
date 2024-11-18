@@ -24,7 +24,7 @@ async (conn, mek, m, { from, reply }) => {
 ⚠️ _${article.description}_
 🔗 _${article.url}_
 
-  *©Qᴜᴇᴇɴ ISHU BY LAKSIDU NIMSARAッ*
+  *©QUEEN-ISHU MD CREAT BY LAKSIDUッ*
             `;
 
             console.log('Article URL:', article.urlToImage); // Log image URL for debugging
