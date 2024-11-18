@@ -20,15 +20,15 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
         let desc = `*📽️ QUEEN-ISHU-MD VIDEO DOWNLOADER . .⚙️*
 
-📽️⚙️ TITLE - ${data.title}
+*💚 TITLE - ${data.title}*
 
-📽️⚙️ VIEWS - ${data.views}
+*💚 VIEWS - ${data.views}*
 
-📽️⚙️ DESCRIPTION - ${data.description}
+*💚 DESCRIPTION - ${data.description}*
 
-📽️⚙️ TIME - ${data.timestamp}
+*💚 TIME - ${data.timestamp}*
 
-📽️⚙️ AGO - ${data.ago}
+*💚 AGO - ${data.ago}*
 
 *Reply This Message With Option*
 
