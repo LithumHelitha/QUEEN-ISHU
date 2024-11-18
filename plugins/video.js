@@ -1,73 +1,53 @@
-const {cmd , commands} = require('../command')
-const yts = require('yt-search');
-const fg = require('api-dylux');
+// YT MP4 DOWNLOAD COMMAND 
 
-// -------- Video Download --------
+const { cmd } = require('../command')
+const { fetchJson } = require('../lib/functions')
+
+const apilink = 'https://dark-yasiya-api-new.vercel.app' // API LINK ( DO NOT CHANGE THIS!! )
+
 cmd({
-    pattern: 'video',
-    desc: 'download videos',
-    react: "📽️",
-    category: 'download',
+    pattern: "video",
+    desc: "download video.",
+    category: "download",
+    react: "🎧",
     filename: __filename
 },
-async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
-    try {
-        if (!q) return reply('*Please enter a query or a url !*');
+async(conn, mek, m,{from, reply, q}) => {
+try{
 
-        const search = await yts(q);
-        const data = search.videos[0];
-        const url = data.url;
+if(!q) return reply('Give me video name or url !')
+    
+const search = await fetchJson(`${apilink}/search/yt?q=${q}`)
+const data = search.result.data[0];
+const url = data.url
+    
+const ytdl = await fetchJson(`${apilink}/download/ytmp4?url=${data.url}`)
+    
+let message = `‎‎           💜QUEEN-ISHU VIDEO DOWNLOADING💜
 
-        let desc = `*📽️ QUEEN-ISHU-MD VIDEO DOWNLOADER . .⚙️*
+ *💚 ‎Title: ${data.title}*
 
-*💚 TITLE - ${data.title}*
+ *💚 Duration: ${data.timestamp}*
 
-*💚 VIEWS - ${data.views}*
+ *🌏 Uploaded: ${data.ago}*
 
-*💚 DESCRIPTION - ${data.description}*
+ *🧿 Views: ${data.views}*
 
-*💚 TIME - ${data.timestamp}*
+ *🤵 Author: ${data.author.name}*
 
-*💚 AGO - ${data.ago}*
+  *📎 Url: ${data.url}*
+`
+  
+await conn.sendMessage(from, { image: { url : data.thumbnail }, caption: message }, { quoted : mek })
+  
+// SEND AUDIO NORMAL TYPE and DOCUMENT TYPE
+await conn.sendMessage(from, { audio: { url: ytdl.result.dl_link }, mimetype: "video/mp4" }, { quoted: mek })
+await conn.sendMessage(from, { document: { url: ytdl.result.dl_link }, mimetype: "audio/mp4", fileName: data.title + ".mp3", caption: `${data.title}`}, { quoted: mek })
+  
+} catch(e){
+console.log(e)
+reply(e)
+}
+})
 
-*💚Reply This Message With Option💚*
-
-*1 Video With Normal Format*
-
-*2 Video With Document Format*
-
-*©ISHU-MD CREATE BY LAKSIDU NIMSARAッ*`;
-
-        const vv = await conn.sendMessage(from, { image: { url: data.thumbnail }, caption: desc }, { quoted: mek });
-
-        conn.ev.on('messages.upsert', async (msgUpdate) => {
-            const msg = msgUpdate.messages[0];
-            if (!msg.message || !msg.message.extendedTextMessage) return;
-
-            const selectedOption = msg.message.extendedTextMessage.text.trim();
-
-            if (msg.message.extendedTextMessage.contextInfo && msg.message.extendedTextMessage.contextInfo.stanzaId === vv.key.id) {
-                switch (selectedOption) {
-                    case '1':
-                        let downvid = await fg.ytv(url);
-                        let downloadvUrl = downvid.dl_url;
-                        await conn.sendMessage(from, { video : { url:downloadvUrl }, caption: '*ISHU-MD CREATE BY LAKSIDU NIMSARAッ*', mimetype: 'video/mp4'},{ quoted: mek });
-                        break;
-                    case '2':
-                        let downviddoc = await fg.ytv(url);
-                        let downloadvdocUrl = downviddoc.dl_url;
-                        await conn.sendMessage(from, { document: { url:downloadvdocUrl }, caption: '*ISHU-MD CREATE BY LAKSIDU NIMSARAッ*', mimetype: 'video/mp4', fileName:data.title + ".mp4" }, { quoted: mek });
-                        break;
-                    default:
-                        reply("Invalid option. Please select a valid option🔴");
-                }
-
-            }
-        });
-
-    } catch (e) {
-        console.error(e);
-        await conn.sendMessage(from, { react: { text: '❌', key: mek.key } })
-        reply('An error occurred while processing your request.');
-    }
-});
+// FOLLOW US : https://whatsapp.com/channel/0029Vao7dOmDOQISArwnHT0e
