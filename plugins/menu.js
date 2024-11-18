@@ -15,10 +15,10 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         let desc = `*👋 Hello ${pushname}*
 
 *╭─「 ᴄᴏᴍᴍᴀɴᴅ ᴘᴀɴᴇʟ」*
-*│◈ ʀᴜɴᴛɪᴍᴇ : ${runtime(process.uptime())}*
-*│◈ ʀᴀᴍ ᴜꜱᴀɢᴇ : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
-*│◈ ᴘʟᴀᴛꜰᴏʀᴍ : ${os.hostname()}*
-*│◈ ᴠᴇʀꜱɪᴏɴ : 1.0.0*
+*│🧡 ʀᴜɴᴛɪᴍᴇ : ${runtime(process.uptime())}*
+*│🧡 ʀᴀᴍ ᴜꜱᴀɢᴇ : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
+*│🧡 ᴘʟᴀᴛꜰᴏʀᴍ : ${os.hostname()}*
+*│🧡 ᴠᴇʀꜱɪᴏɴ : 1.0.0*
 *╰──────────●●►*
 
 *╭╼╼╼╼╼╼╼╼╼╼*
@@ -33,10 +33,16 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 *├ 9 • TOOLS*
 *├ 10 • OTHER*
 *╰╼╼╼╼╼╼╼╼╼╼*
+=======================
+│🧡 ᴜᴘᴛɪᴍᴇ : 24H
+│🧡 RAM USAGE :  4TB
+│🧡 HOST NAME : LAKSIDU CLOUD
+│🧡 OWERNER : LAKSIDU NIMSARA
+=======================
 
 _*🌟 Reply with the Number you want to select*_
 
-*©QUEEN ISHU MD CREATE BY LAKSIDU NIMSARAッ*`;
+*ISHU MD CREATE BY LAKSIDU NIMSARAッ*`;
 
         const vv = await conn.sendMessage(from, { image: { url: "https://i.imgur.com/wzC6N6h.jpeg"}, caption: desc }, { quoted: mek });
 
@@ -52,209 +58,209 @@ _*🌟 Reply with the Number you want to select*_
                         reply(`*◈╾──────OWNER COMMAND LIST──────╼◈*
 
 ╭────────●●►
-│ • *restart* 
+│ 🧡 *restart* 
 ╰────────────────────●●►
 
 ⭓ *Total Commands List OWNER: 1*
 
-*©QUEEN ISHU MD CREATE BY LAKSIDU NIMSARAッ*`);
+*©ISHU MD CREATE BY LAKSIDU NIMSARAッ*`);
                         break;
                     case '2':               
                         repl (`*◈╾──────CONVERT COMMAND LIST──────╼◈*
 
 ╭────────●●►
-│ • *convert* 
+│ 🧡 *convert* 
 ╰────────────────────●●►
 
 ⭓ *Total Commands List CONVERT: 1*
 
-*©QUEEN ISHU MD CREATE BY LAKSIDU NIMSARAッ*`);
+*©ISHU MD CREATE BY LAKSIDU NIMSARAッ*`);
                         break;
                     case '3':               
                         reply(`*◈╾──────AI COMMAND LIST──────╼◈*
 
 ╭────────●●►
-│ • *ai* 
+│ 🧡 *ai* 
 ╰────────────────────●●►
 
 ⭓ *Total Commands List AI: 1*
 
-*©QUEEN ISHU MD CREATE BY LAKSIDU NIMSARAッ*`);
+*©ISHU MD CREATE BY LAKSIDU NIMSARAッ*`);
                         break;
                     case '4':               
                         reply(`*◈╾──────SEARCH COMMAND LIST──────╼◈*
 
 ╭────────●●►
-│ • *yts* 
+│ 🧡 *yts* 
 ╰────────────────────●●►
 ╭────────●●►
-│ • *srepo* 
+│ 🧡 *srepo* 
 ╰────────────────────●●►
 
 ⭓ *Total Commands List SEARCH: 2*
 
-*©QUEEN ISHU MD CREATE BY LAKSIDU NIMSARAッ*`);
+*ISHU MD CREATE BY LAKSIDU NIMSARAッ*`);
                         break;
                     case '5':               
                         reply(`*◈╾──────DOWNLOAD COMMAND LIST──────╼◈*
 
 ╭────────●●►
-│ • *apk* 
+│ 🧡 *apk* 
 ╰────────────────────●●►
 ╭────────●●►
-│ • *twitter* 
+│ 🧡 *twitter* 
 ╰────────────────────●●►
 ╭────────●●►
-│ • *gdrive* 
+│ 🧡 *gdrive* 
+╰────────────────────●●►
+╭─🧡───────●●►
+│ 🧡 *mediafire* 
 ╰────────────────────●●►
 ╭────────●●►
-│ • *mediafire* 
+│ 🧡 *fb* 
 ╰────────────────────●●►
 ╭────────●●►
-│ • *fb* 
+│ 🧡 *ig* 
 ╰────────────────────●●►
 ╭────────●●►
-│ • *ig* 
+│ 🧡 *movie* 
 ╰────────────────────●●►
 ╭────────●●►
-│ • *movie* 
+│ 🧡 *song* 
 ╰────────────────────●●►
 ╭────────●●►
-│ • *song* 
+│ 🧡 *video* 
 ╰────────────────────●●►
 ╭────────●●►
-│ • *video* 
+│ 🧡 *play/yt* 
 ╰────────────────────●●►
 ╭────────●●►
-│ • *play/yt* 
+│ 🧡 *song2* 
 ╰────────────────────●●►
 ╭────────●●►
-│ • *song2* 
+│ 🧡 *video2* 
 ╰────────────────────●●►
 ╭────────●●►
-│ • *video2* 
+│ 🧡 *tiktok* 
 ╰────────────────────●●►
 ╭────────●●►
-│ • *tiktok* 
-╰────────────────────●●►
-╭────────●●►
-│ • *img* 
+│ 🧡 *img* 
 ╰────────────────────●●►
 
 ⭓ *Total Commands List DOWNLOAD: 14*
 
-*©QUEEN ISHU MD CREATE BY LAKSIDU NIMSARAッ*`);
+*©ISHU MD CREATE BY LAKSIDU NIMSARAッ*`);
                         break;
                     case '6':               
                         reply(`*◈╾──────MAIN COMMAND LIST──────╼◈*
 
 ╭────────●●►
-│ • *alive* 
+│ 🧡 *alive* 
 ╰────────────────────●●►
 ╭────────●●►
-│ • *about* 
+│ 🧡 *about* 
 ╰────────────────────●●►
 ╭────────●●►
-│ • *menu* 
+│ 🧡 *menu* 
 ╰────────────────────●●►
 ╭────────●●►
-│ • *allmenu* 
+│ 🧡 *allmenu* 
 ╰────────────────────●●►
 ╭────────●●►
-│ • *support* 
+│ 🧡 *support* 
 ╰────────────────────●●►
 ╭────────●●►
-│ • *system* 
+│ 🧡 *system* 
 ╰────────────────────●●►
 ╭────────●●►
-│ • *ping* 
+│ 🧡 *ping* 
 ╰────────────────────●●►
 ╭────────●●►
-│ • *runtime* 
+│ 🧡 *runtime* 
 ╰────────────────────●●►
 
 ⭓ *Total Commands List MAIN: 8*
 
-*©QUEEN ISHU MD CREATE BY LAKSIDU NIMSARAッ*`);
+*©ISHU MD CREATE BY LAKSIDU NIMSARAッ*`);
                         break;
                     case '7':               
                         reply(`*◈╾──────GROUP COMMAND LIST──────╼◈*
 
 ╭────────●●►
-│ • *promote* 
+│ 🧡 *promote* 
 ╰────────────────────●●►
 ╭────────●●►
-│ • *demote* 
+│ 🧡 *demote* 
 ╰────────────────────●●►
 ╭────────●●►
-│ • *kick* 
+│ 🧡 *kick* 
 ╰────────────────────●●►
 ╭────────●●►
-│ • *add* 
+│ 🧡 *add* 
 ╰────────────────────●●►
 ╭────────●●►
-│ • *admins* 
+│ 🧡 *admins* 
 ╰────────────────────●●►
 ╭────────●●►
-│ • *tagall* 
+│ 🧡 *tagall* 
 ╰────────────────────●●►
 ╭────────●●►
-│ • *getpic* 
+│ 🧡 *getpic* 
 ╰────────────────────●●►
 ╭────────●●►
-│ • *setwelcome* 
+│ 🧡 *setwelcome* 
 ╰────────────────────●●►
 ╭────────●●►
-│ • *setgoodbye* 
+│ 🧡 *setgoodbye* 
 ╰────────────────────●●►
 ╭────────●●►
-│ • *admins* 
+│ 🧡 *admins* 
 ╰────────────────────●●►
 ╭────────●●►
-│ • *gname* 
+│ 🧡 *gname* 
 ╰────────────────────●●►
 
 ⭓ *Total Commands List GROUP: 11*
 
-*©QUEEN ISHU MD CREATE BY LAKSIDU NIMSARAッ*`);
+*ISHU MD CREATE BY LAKSIDU NIMSARAッ*`);
                        break;
                     case '8':               
                         reply(`*◈╾──────FUN COMMAND LIST──────╼◈*
 
 ╭────────●●►
-│ • *dog* 
+│ 🧡 *dog* 
 ╰────────────────────●●►
 ╭────────●●►
-│ • *fact* 
+│ 🧡 *fact* 
 ╰────────────────────●●►
 ╭────────●●►
-│ • *hack* 
+│ 🧡 *hack* 
 ╰────────────────────●●►
 ╭────────●●►
-│ • *quote* 
+│ 🧡 *quote* 
 ╰────────────────────●●►
 
 ⭓ *Total Commands List FUN: 4*
 
-*©QUEEN ISHU MD CREATE BY LAKSIDU NIMSARAッ*`);
+*ISHU MD CREATE BY LAKSIDU NIMSARAッ*`);
 
                         break;
                     case '10':               
                         reply(`*◈╾──────OTHER COMMAND LIST──────╼◈*
 
 ╭────────●●►
-│ • *githubstalk* 
+│ 🧡 *githubstalk* 
 ╰────────────────────●●►
 ╭────────●●►
-│ • *trt* 
+│ 🧡 *trt* 
 ╰────────────────────●●►
 ╭────────●●►
-│ • *weather* 
+│ 🧡 *weather* 
 ╰────────────────────●●►
 
 ⭓ *Total Commands List OTHER: 3*
 
-*©QUEEN ISHU MD CREATE BY LAKSIDU NIMSARAッ*`);
+*ISHU MD CREATE BY LAKSIDU NIMSARAッ*`);
 
 
                         break;
