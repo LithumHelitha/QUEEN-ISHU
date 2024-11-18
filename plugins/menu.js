@@ -19,6 +19,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 *│❤️ ʀᴀᴍ ᴜꜱᴀɢᴇ : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
 *│❤️ ᴘʟᴀᴛꜰᴏʀᴍ : ${os.hostname()}*
 *│❤️ ᴠᴇʀꜱɪᴏɴ : 1.0.0*
+*│❤️ OWERNER : LAKSIDU NIMSARA*
 *╰──────────●●►*
 *╭╼╼╼╼╼╼╼╼╼╼*
 *├ 1 • OWNER*
@@ -32,13 +33,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 *├ 9 • TOOLS*
 *├ 10 • OTHER*
 *╰╼╼╼╼╼╼╼╼╼╼*
-*=======================*
-*│❤️ ᴜᴘᴛɪᴍᴇ : 24H*
-*│❤️ RAM USAGE :  4TB*
-*│❤️ HOST NAME : LAKSIDU CLOUD*
-*│❤️ OWERNER : LAKSIDU NIMSARA*
-*=======================*
-_*🌟 Reply with the Number you want to select*_
+
+*🌟 Reply with the Number you want to select*
 
 *ISHU MD CREATE BY LAKSIDU NIMSARAッ*`;
 
@@ -53,7 +49,7 @@ _*🌟 Reply with the Number you want to select*_
             if (msg.message.extendedTextMessage.contextInfo && msg.message.extendedTextMessage.contextInfo.stanzaId === vv.key.id) {
                 switch (selectedOption) {
                     case '1':
-                        reply(`*◈╾──────OWNER COMMAND LIST──────╼◈*
+                        reply(`*💜◈╾──────OWNER COMMAND LIST──────╼◈💜*
 
 ╭────────●●►
 │ 🧡 *restart* 
@@ -64,7 +60,7 @@ _*🌟 Reply with the Number you want to select*_
 *©ISHU MD CREATE BY LAKSIDU NIMSARAッ*`);
                         break;
                     case '2':               
-                        repl (`*◈╾──────CONVERT COMMAND LIST──────╼◈*
+                        repl (`💜*◈╾──────CONVERT COMMAND LIST──────╼◈💜*
 
 ╭────────●●►
 │ 🧡 *convert* 
@@ -75,7 +71,7 @@ _*🌟 Reply with the Number you want to select*_
 *©ISHU MD CREATE BY LAKSIDU NIMSARAッ*`);
                         break;
                     case '3':               
-                        reply(`*◈╾──────AI COMMAND LIST──────╼◈*
+                        reply(`💜*◈╾──────AI COMMAND LIST──────╼◈💜*
 
 ╭────────●●►
 │ 🧡 *ai* 
@@ -86,7 +82,7 @@ _*🌟 Reply with the Number you want to select*_
 *©ISHU MD CREATE BY LAKSIDU NIMSARAッ*`);
                         break;
                     case '4':               
-                        reply(`*◈╾──────SEARCH COMMAND LIST──────╼◈*
+                        reply(`*💜◈╾──────SEARCH COMMAND LIST──────╼◈💜*
 
 ╭────────●●►
 │ 🧡 *yts* 
@@ -100,7 +96,7 @@ _*🌟 Reply with the Number you want to select*_
 *ISHU MD CREATE BY LAKSIDU NIMSARAッ*`);
                         break;
                     case '5':               
-                        reply(`*◈╾──────DOWNLOAD COMMAND LIST──────╼◈*
+                        reply(`*💜◈╾──────DOWNLOAD COMMAND LIST──────╼◈💜*
 
 ╭────────●●►
 │ 🧡 *apk* 
@@ -150,7 +146,7 @@ _*🌟 Reply with the Number you want to select*_
 *©ISHU MD CREATE BY LAKSIDU NIMSARAッ*`);
                         break;
                     case '6':               
-                        reply(`*◈╾──────MAIN COMMAND LIST──────╼◈*
+                        reply(`*💜◈╾──────MAIN COMMAND LIST──────╼◈💜*
 
 ╭────────●●►
 │ 🧡 *alive* 
@@ -182,7 +178,7 @@ _*🌟 Reply with the Number you want to select*_
 *©ISHU MD CREATE BY LAKSIDU NIMSARAッ*`);
                         break;
                     case '7':               
-                        reply(`*◈╾──────GROUP COMMAND LIST──────╼◈*
+                        reply(`*💜◈╾──────GROUP COMMAND LIST──────╼◈💜*
 
 ╭────────●●►
 │ 🧡 *promote* 
@@ -223,7 +219,7 @@ _*🌟 Reply with the Number you want to select*_
 *ISHU MD CREATE BY LAKSIDU NIMSARAッ*`);
                        break;
                     case '8':               
-                        reply(`*◈╾──────FUN COMMAND LIST──────╼◈*
+                        reply(`*💜◈╾──────FUN COMMAND LIST──────╼◈💜*
 
 ╭────────●●►
 │ 🧡 *dog* 
@@ -244,7 +240,7 @@ _*🌟 Reply with the Number you want to select*_
 
                         break;
                     case '10':               
-                        reply(`*◈╾──────OTHER COMMAND LIST──────╼◈*
+                        reply(`*💜◈╾──────OTHER COMMAND LIST──────╼◈💜*
 
 ╭────────●●►
 │ 🧡 *githubstalk* 
