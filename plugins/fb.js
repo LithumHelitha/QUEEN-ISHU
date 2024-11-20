@@ -41,10 +41,10 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             if (msg.message.extendedTextMessage.contextInfo && msg.message.extendedTextMessage.contextInfo.stanzaId === vv.key.id) {
                 switch (selectedOption) {
                     case '1':
-                        await conn.sendMessage(from, { video: { url: data.data.hd }, mimetype: "video/mp4", caption: "*©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*" }, { quoted: mek });
+                        await conn.sendMessage(from, { video: { url: data.data.hd }, mimetype: "video/mp4", caption: "*©QUEEN-ISHU-MDッ*" }, { quoted: mek });
                         break;
                     case '2':               
-                    await conn.sendMessage(from, { video: { url: data.data.sd }, mimetype: "video/mp4", caption: "*©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*" }, { quoted: mek });
+                    await conn.sendMessage(from, { video: { url: data.data.sd }, mimetype: "video/mp4", caption: "*©QUEEN-ISHU-MDッ*" }, { quoted: mek });
                         break;
                     default:
                         reply("Invalid option. Please select a valid option🔴");
