@@ -23,7 +23,7 @@ let status =`┌────────────────────
     *├ 👾Version:- 1.0.0*
     └───────────────────────
 
-*©CREAT BY LAKSIDU NIMSARA*`
+*©CREATE BY LAKSIDU NIMSARA*`
 return reply(`${status}`)
 }catch(e){
 console.log(e)
