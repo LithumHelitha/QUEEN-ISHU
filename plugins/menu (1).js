@@ -13,33 +13,32 @@ cmd({
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
         let desc = `*👋 Hello ${pushname}*
-
-*│╭─────────────···▸*
-*┴│▸*
+     *𝐐𝐔𝐄𝐄𝐍 𝐈𝐒𝐇𝐔 𝐋𝐈𝐒𝐓 𝐌𝐄𝐍𝐔*
+*❖╭─────────────···▸*
 *❖│▸* *ʀᴜɴᴛɪᴍᴇ* : ${runtime(process.uptime())}
-*❖│▸* *ᴍᴏᴅᴇ* : *[${config.MODE}]*
-*❖│▸* *ᴘʀᴇғɪx* : *[${config.PREFIX}]*
+*❖│▸* *ᴍᴏᴅᴇ* : *PUBLIC*
+*❖│▸* *ᴘʀᴇғɪx* : *.*
 *❖│▸* *ʀᴀᴍ ᴜsᴇ* : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
 *❖│▸* *ɴᴀᴍᴇ ʙᴏᴛ* : *❖QUEEN-ISHU❖*
 *❖│▸* *ᴄʀᴇᴀᴛᴏʀ* : *➺LAKSIDU NIMSARA࿐*
 *❖│▸* *ᴠᴇʀsɪᴏɴs* : *ᴠ.1.0.0*
 *❖│▸* *ᴍᴇɴᴜ ᴄᴍᴅ* : *ᴍᴇɴᴜ ʟɪsᴛ*
-*┬│▸*
-*│╰────────────···▸▸*
+*❖╰────────────···▸▸*
 *♡︎•━━━━━━☻︎━━━━━━•♡︎*
 *╭╼╼╼╼╼╼╼╼╼╼*
-*├ 1 • OWNER*
-*├ 2 • CONVERT*
-*├ 3 • AI*
-*├ 4 • SEARCH*
-*├ 5 • DOWNLOAD*
-*├ 6 • MAIN*
-*├ 7 • GROUP*
-*├ 8 • FUN*
-*├ 9 • TOOLS*
-*├ 10 • OTHER*
+*├ 1 • ❃•◯•❃OWNER❃•◯•❃*
+*├ 2 • ❃•◯•❃CONVERT❃•◯•❃*
+*├ 3 • ❃•◯•❃AI❃•◯•❃*
+*├ 4 • ❃•◯•❃SEARCH❃•◯•❃*
+*├ 5 • ❃•◯•❃DOWNLOAD❃•◯•❃*
+*├ 6 • ❃•◯•❃MAIN❃•◯•❃*
+*├ 7 • ❃•◯•❃GROUP❃•◯•❃*
+*├ 8 • ❃•◯•❃FUN❃•◯•❃*
+*├ 9 • ❃•◯•❃TOOLS❃•◯•❃*
+*├ 10 • ❃•◯•❃OTHER❃•◯•❃*
 *╰╼╼╼╼╼╼╼╼╼╼*
 *❒⁠⁠⁠⁠▭▬▭▬▭▬▭▬▭▬▭▬▭❒*⁠⁠⁠⁠
+
 *🌟 Reply with the Number you want to select*
 
 *ISHU MD CREATE BY LAKSIDU NIMSARAッ*`;
