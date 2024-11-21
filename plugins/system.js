@@ -14,6 +14,8 @@ async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender
 try{ 
 
 let status =`┌────────────────────
+            *𝐐𝐔𝐄𝐄𝐍 𝐈𝐒𝐇𝐔 𝐋𝐈𝐒𝐓 𝐒𝐘𝐒𝐓𝐄𝐌*
+
     *├ ⏰Runtime:-  ${runtime(process.uptime())}*    
     *├ 📟Ram usage:- ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
     *├ ⚙️Platform:- ${os.hostname()}*
