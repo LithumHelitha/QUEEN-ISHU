@@ -39,7 +39,7 @@
 <hr>
 <b>GET SESSION ID VIA PAIR CODE 02</b>
 
-<a href='https://queen-ishu-pair-creat-laksidu-b1113899f08c.herokuapp.com/' target="_blank"><img alt='Get Session ID' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a>
+<a href='https://laksidu-create-queen-ishu-bot-7804cdf05e4a.herokuapp.com/' target="_blank"><img alt='Get Session ID' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a>
 
 <!--
 <a href = "https://gpt-qr-code.onrender.com/elisa"> <img src = "/repo-data/elisa scan qr code.svg" width="150" height="70" > </a></br>
