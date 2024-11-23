@@ -27,6 +27,11 @@
    <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
    <br>
 
+<a href="https://laksidu-bot.tiiny.site/"><img src="https://img.shields.io/badge/Fork%20Repo-blue" alt="PAIR CODE" width="150"></a>
+  </br>
+   <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
+   <br>
+
              【============𝐋𝐀𝐊𝐒𝐈𝐃𝐔 𝐍𝐈𝐌𝐒𝐀𝐑𝐀 𝐌𝐀𝐇𝐄𝐒𝐇 𝐖𝐈𝐂𝐊𝐑𝐀𝐌𝐀𝐒𝐈𝐍𝐇𝐀=============】
 
 
