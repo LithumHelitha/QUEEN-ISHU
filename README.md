@@ -57,7 +57,17 @@
     OR
     -->
 ## Deploy.
+
  [![nima](https://img.shields.io/badge/QUEEN-ISHU_deploy_on_heroku-430098?style=for-the-badge&logo=heroku&logoColor=white&buttcode=1n2i3m4a)](https://dashboard.heroku.com/new?template=https://github.com/laksidunimsara1/QUEEN-ISHU-MD)
+
+ 
+  [![nima](https://img.shields.io/badge/QUEEN_ISHU_deploy_on_replit-F26207?style=for-the-badge&logo=replit&logoColor=white&buttcode=1n2i3m4a)](https://replit.com/)
+   
+[![nima](https://img.shields.io/badge/QUEEN_ISHU_deploy_on_render-000000?style=for-the-badge&logo=render&logoColor=white&buttcode=1n2i3m4a)](https://docs.render.com/free)
+
+[![nima](https://img.shields.io/badge/QUEEN_ISHU_deploy_on_toystalk-000000?style=for-the-badge&logo=render&logoColor=white&buttcode=1n2i3m4a)](https://toystack.ai)
+    
+
 
 </details>
 
@@ -65,13 +75,7 @@
   </br>
    <img src="https://i.imgur.com/dBaSKWF.gif" height="130" width="100%">
 
-   <br
-  [![nima](https://img.shields.io/badge/elisa_deploy_on_replit-F26207?style=for-the-badge&logo=replit&logoColor=white&buttcode=1n2i3m4a)](https://replit.com/)
-   
-[![nima](https://img.shields.io/badge/elisa_deploy_on_render-000000?style=for-the-badge&logo=render&logoColor=white&buttcode=1n2i3m4a)](https://docs.render.com/free)
-
-[![nima](https://img.shields.io/badge/elisa_deploy_on_toystalk-000000?style=for-the-badge&logo=render&logoColor=white&buttcode=1n2i3m4a)](https://toystack.ai)
-    
+ 
 
 <p align="center">
 <img src="https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg" alt="nz" width="700"/>
