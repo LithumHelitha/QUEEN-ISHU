@@ -41,6 +41,8 @@
 <h1><a href="https://laksidu-bot.tiiny.site/"> QUEEN ISHU OFFICIAL WEB SITE</a></h1>
 <p>
 <body>
+
+
 <!--
 <a href = "https://gpt-qr-code.onrender.com/elisa"> <img src = "/repo-data/elisa scan qr code.svg" width="150" height="70" > </a></br>
     OR   
@@ -49,7 +51,7 @@
     OR
     -->
 ## Deploy.
- [![nima](https://img.shields.io/badge/QUEEN-ISHU_deploy_on_heroku-430098?style=for-the-badge&logo=heroku&logoColor=white&buttcode=1n2i3m4a)](https://dashboard.heroku.com/new?template=https://github.com/LAKSIDUOFFICIAL/QUEEN-ISHU)
+ [![nima](https://img.shields.io/badge/QUEEN-ISHU_deploy_on_heroku-430098?style=for-the-badge&logo=heroku&logoColor=white&buttcode=1n2i3m4a)](https://dashboard.heroku.com/new?template=https://github.com/laksidunimsara1/QUEEN-ISHU-MD)
 
 </details>
 
