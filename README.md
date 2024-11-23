@@ -54,9 +54,9 @@
 
 </details>
 
- <a href="https://github.com/LAKSIDUOFFICIAL/LAKSIDU-BOT"><img src="https://img.shields.io/badge/DIPLOY%20WORKFLOWS-blue" alt="DIPLOY  WORKFLOWS" width="150"></a>
+ <a href="https://github.com/LAKSIDUOFFICIAL/LAKSIDU-BOT"><img src="https://img.shields.io/badge/DIPLOY%20WORKFLOWS-blue" alt="DIPLOY  WORKFLOWS" width="250"></a>
   </br>
-   <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
+   <img src="https://i.imgur.com/dBaSKWF.gif" height="110" width="100%">
 
    <br
       
