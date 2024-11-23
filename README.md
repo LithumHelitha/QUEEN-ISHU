@@ -27,7 +27,7 @@
    <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
    <br>
 
-<a href="https://laksidu-bot.tiiny.site/"><img src="https://img.shields.io/badge/Fork%20Repo-blue" alt="PAIR CODE" width="150"></a>
+<a href="https://laksidu-bot.tiiny.site/"><img src="https://img.shields.io/badge/PAIR%20CODE-blue" alt="PAIR CODE" width="150"></a>
   </br>
    <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
    <br>
