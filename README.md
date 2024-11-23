@@ -27,8 +27,7 @@
    <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
    <br>
 
-
-                   【============𝐋𝐀𝐊𝐒𝐈𝐃𝐔 𝐍𝐈𝐌𝐒𝐀𝐑𝐀 𝐌𝐀𝐇𝐄𝐒𝐇 𝐖𝐈𝐂𝐊𝐑𝐀𝐌𝐀𝐒𝐈𝐍𝐇𝐀=============】
+             【============𝐋𝐀𝐊𝐒𝐈𝐃𝐔 𝐍𝐈𝐌𝐒𝐀𝐑𝐀 𝐌𝐀𝐇𝐄𝐒𝐇 𝐖𝐈𝐂𝐊𝐑𝐀𝐌𝐀𝐒𝐈𝐍𝐇𝐀=============】
 
 
 </details>
@@ -54,6 +53,13 @@
  [![nima](https://img.shields.io/badge/QUEEN-ISHU_deploy_on_heroku-430098?style=for-the-badge&logo=heroku&logoColor=white&buttcode=1n2i3m4a)](https://dashboard.heroku.com/new?template=https://github.com/laksidunimsara1/QUEEN-ISHU-MD)
 
 </details>
+
+ <a href="https://github.com/LAKSIDUOFFICIAL/LAKSIDU-BOT"><img src="https://img.shields.io/badge/Fork%20Repo-blue" alt="DIPLOY  WORKFLOWS" width="150"></a>
+  </br>
+   <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
+
+   <br
+      
 
 <p align="center">
 <img src="https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg" alt="nz" width="700"/>
